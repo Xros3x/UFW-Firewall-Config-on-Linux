@@ -1,0 +1,15 @@
+# Allow from specific IP
+sudo ufw allow from 192.168.1.100 to any port 22
+
+# Rate limit SSH
+sudo ufw limit ssh
+
+# Block specific IP
+sudo ufw deny from 203.0.113.10
+
+# Allow port to IP range
+sudo ufw allow from 192.168.1.0/24 to any port 8080 proto tcp
+
+# Logging
+sudo ufw logging on
+sudo ufw logging high
