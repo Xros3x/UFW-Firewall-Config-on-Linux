@@ -1,0 +1,11 @@
+# Basic allow rules
+sudo ufw allow 22/tcp      # SSH
+sudo ufw allow 80/tcp      # HTTP
+sudo ufw allow 443/tcp     # HTTPS
+
+# Default deny policy
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Enable firewall
+sudo ufw enable
