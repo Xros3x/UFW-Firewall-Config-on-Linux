@@ -1,0 +1,12 @@
+sudo journalctl | grep UFW
+tail -f /var/log/ufw.log
+---
+
+# Best Practices with UFW
+
+1. Always allow SSH before enabling UFW.
+2. Use `ufw status numbered` to manage rules more easily.
+3. Set a deny-by-default policy.
+4. Log and review regularly.
+5. Rate limit sensitive services like SSH.
+6. Test new rules with `nmap` or `ss` before closing your terminal.
