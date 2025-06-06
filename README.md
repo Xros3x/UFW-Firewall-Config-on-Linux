@@ -9,6 +9,4 @@ Basic Configuration: Show how to allow/deny ports, enable/disable UFW, and check
 
 Advanced Usage: Include examples like rate limiting, allowing specific IPs, and logging.
 
-Best Practices: Offer tips for maintaining and auditing firewall rules.
-
-References: Link to HackerSploit's tutorial and official UFW documentation.
+References: Official UFW documentation.
